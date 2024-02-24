@@ -15,8 +15,8 @@
 </head>
 
 <body>
-    <h2>This is website to creat photo</h2>
-    <!-- lorem for creat words -->
+    <h2>This is website to create photo</h2>
+    <!-- lorem for create words -->
     <!-- for paragraph we used <p></p> -->
     <p>for links</p>
     <!-- for link we can use this command  -->
@@ -28,8 +28,9 @@
     <img src="https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&w=260&h=750&dpr=1"
         alt="loading" srcset="">
     <form action="google.com">
+        <label for="name"> Name</label>
         <div>
-            Name : <input type="text" name="myname">
+            <input type="text" name="myname" id="name">
         </div>
         <br>
         <div>
@@ -37,14 +38,23 @@
         </div>
         <br>
         <div>
-            are you elligbile : <input type="checkbox" name="elligbile">
+             Are you read T&C : Yes <input type="checkbox" name="elligbile" checked><!-- No <input type="checkbox" name="elligbile"> here we have to use radio for one tick-->
         </div>
         <div>
             Gender: Male <input type="radio" name= "Mygender"> Female <input type="radio" name= "Mygender"> Other <input type="radio" name= "Mygender">
             </div>
         <br>
+        <label for="car">Car</label>
+        <select name="mycar" id="">car
+            <option value="ind"selected>indica</option>
+            <option value="B">BMW</option>
+        </select>
+        <div>
+            write about yourself: <br><textarea name="myText" cols="30" rows="10"></textarea>
+        </div>
         <div>
             <input type="submit" submit="submit now">
+            <input type="reset" submit="reset now">
         </div>
     </form>
 </body>
