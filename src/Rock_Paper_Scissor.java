@@ -20,7 +20,7 @@ public class Rock_Paper_Scissor {
         else  {
             System.out.println("&&___Computer Win___$$ \nComputer choose --> " +  Computer_Input);
         }
-        System.out.println("Thanks for play")
+        System.out.println("Thanks for play");
 
     }
 }
