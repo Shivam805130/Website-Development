@@ -15,6 +15,13 @@
 </head>
 
 <body>
+    <style>
+                p{
+                color : rgb(60, 255, 0)!important;
+                background-color: azure ;
+            }
+            </style>
+    
     <h2>This is website to create photo</h2>
     <!-- lorem for create words -->
     <!-- for paragraph we used <p></p> -->
@@ -24,24 +31,30 @@
     <a href="https://facebook.com" target="_blank">click here to go on facebook</a> <br>
     <!-- for a line we use <hr> -->
     <hr>
+    
     <!-- for a image we use this command alt is used for slow internet conection  -->
     <img src="https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&w=260&h=750&dpr=1"
         alt="loading" srcset="">
     <form action="google.com">
-        <label for="name"> Name</label>
+        <span style = "border:2px solid red;">
+        <label for="name"> Name</label></span>
         <div>
+            
             <input type="text" name="myname" id="name">
         </div>
         <br>
         <div>
+            
             Email : <input type="email" name="My email">
         </div>
         <br>
+        <samp id="myid"></samp>
+        <samp class="redBg"></samp>
         <div>
-             Are you read T&C : Yes <input type="checkbox" name="elligbile" checked><!-- No <input type="checkbox" name="elligbile"> here we have to use radio for one tick-->
+            <p style=" color: aqua; background-color: beige;" > This is red  Are you read T&C </p>: Yes <input type="checkbox" name="elligbile" checked><!-- No <input type="checkbox" name="elligbile"> here we have to use radio for one tick-->
         </div>
         <div>
-            Gender: Male <input type="radio" name= "Mygender"> Female <input type="radio" name= "Mygender"> Other <input type="radio" name= "Mygender">
+             Gender: Male <input type="radio" name= "Mygender"> Female <input type="radio" name= "Mygender"> Other <input type="radio" name= "Mygender">
             </div>
         <br>
         <label for="car">Car</label>
@@ -49,12 +62,22 @@
             <option value="ind"selected>indica</option>
             <option value="B">BMW</option>
         </select>
-        <div>
-            write about yourself: <br><textarea name="myText" cols="30" rows="10"></textarea>
+        <div> 
+            
+            write about yourself: <br></span><textarea name="myText" cols="30" rows="10"></textarea>
         </div>
         <div>
             <input type="submit" submit="submit now">
             <input type="reset" submit="reset now">
+        </div>
+        <link rel="stylesheet" href="gh.css">
+        <div>
+           <p> pound is writen in &pound;;</p>
+           <p> copyright is writen in &copy;</p>
+            <p>trademark is writen in 	&reg;</p>
+            <p>Empty character is writen in &#8203;</p>
+            <p>paragraph is writen in &lt;p&gt;</p>
+            
         </div>
     </form>
 </body>
