@@ -8,14 +8,31 @@
     <meta name="keyword" content="Nature ,Animal">
     <meta name="robots" content="INDEX , FOLLOW">
     <title>Ashish</title>
+    
+    <!-- * {
+        box-sizing : border-size;
+      } -->
     <!-- This way we can link css -->
     <link rel="stylesheet" href="gh.css">
     <!-- This way we can link Java script -->
     <script src="jg.js"></script>
+    <style>
+    body{
+        background-color : rgb(130, 223, 127)
+    }
+            #secondpara {
+                height: 300px;
+                width: 250px;
+                background-image: url('https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+                background-position: top center;
+            }
+        </style>
 </head>
 
 <body>
+    
     <style>
+    
                 div{
                 color : rgb(60, 255, 0)!important;
                 background-color: azure ;
@@ -51,8 +68,8 @@
         <samp id="myid"></samp>
         <samp class="redBg"></samp>
         <div>
-            <p style=" color: aqua; background-color: beige;" > This is red  Are you read T&C : Yes <input type="checkbox" name="elligbile" checked><!-- No <input type="checkbox" name="elligbile"> here we have to use radio for one tick-->
-        </div></p>
+            <a style=" color: aqua; background-color: beige;" > Are you read T&C : Yes <input type="checkbox" name="elligbile" checked><!-- No <input type="checkbox" name="elligbile"> here we have to use radio for one tick-->
+        </div></a>
         <div>
              Gender: Male <input type="radio" name= "Mygender"> Female <input type="radio" name= "Mygender"> Other <input type="radio" name= "Mygender">
             </div>
@@ -64,8 +81,8 @@
         </select>
         <div> 
             <p style=" color: aqua; background-color: rgb(221, 221, 173);" >
-            write about yourself: <br></span><textarea name="myText" cols="30" rows="10"></textarea>
-        </div></p>
+            write about yourself: </p><br></span><textarea name="myText" cols="30" rows="10"></textarea>
+        </div>
         <div>
             <input type="submit" submit="submit now">
             <input type="reset" submit="reset now">
@@ -77,8 +94,9 @@
             <p>trademark is writen in 	&reg;</p>
             <p>Empty character is writen in &#8203;</p>
             <p>paragraph is writen in &lt;p&gt;</p>
-            
         </div>
+        
+        <p id="secondpara" !important>this is second para</p>
     </form>
 </body>
 
