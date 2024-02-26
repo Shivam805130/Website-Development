@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>float</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body{
+            font-family: "Micro 5", sans-serif;
+        }
+        .container{
+                width: 900px ; 
+                border: 3px solid greenyellow;
+               background-color:rgb(203, 203, 248);
+               margin: 33px auto;
+            }
+        .item{
+            border: 3px solid gray;
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background: rgb(255, 206, 206);
+        }
+        #fruit{
+                float: left;
+                width: 48%;
+        }                
+        #bag{
+            float: left;
+            width: 48%;
+        }                
+        #glass{
+            /* float: left; */
+            clear: both;
+            clear: left;
+            width: 98%;
+        }                
+        p, h3 {
+            /* text-align: right;
+            text-align: left;
+            text-align: center; */
+            text-align: justify;
+        }
+        a{
+            text-decoration: none;
+        }
+        a:hover{
+            color: black;
+        }
+        .btum{
+            background-color: beige;
+            padding: 6px;
+            border: none;
+            cursor: pointer;
+            font-size: 12px;
+            border-radius: 4px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="fruit" class="item">
+            <h3>fruit</h3>
+            <p id="fruitpara" class="para"> ipsum dolor sit amet consectetur adipisicing elit. Numquam provident corrupti a nesciunt sunt suscipit possimus quas asperiores commodi repellat illum alias molestias officiis, fugiat atque accusamus ratione vitae nihil. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt libero quaerat eaque inventore pariatur dicta vero a iusto voluptatem officiis. Animi molestias nostrum officia delectus, corrupti voluptatibus aut ullam necessitatibus! </p>
+            <a href="" class="btum">Contact Us</a>
+            <button class ="btum"> Read more</button>
+        </div>
+        <div id="bag" class="item">
+            <h3>Bag</h3>
+            <p id="bagpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla nobis at, ducimus molestias accusantium, dolorum dolores deserunt veritatis alias minima, velit ea tenetur sed. Deserunt eos vero voluptates ipsa quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum facilis dolores mollitia quos vel ut? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate numquam soluta quam vitae ducimus ad?</p>
+        </div>
+        <div id="glass" class="item">
+            <h3>glass</h3>
+            <p id="glasspara" class="para"> ipsum dolor sit amet consectetur adipisicing elit. Nesciunt id animi necessitatibus blanditiis facere aliquid laborum aliquam dolores. Odit vel et enim eaque delectus quo expedita quas sunt consequatur laborum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores deserunt iure doloribus cum at quidem vero dicta facilis, velit porro blanditiis dolorum earum praesentium voluptatum repellendus consectetur totam, eos tempore doloremque architecto eaque quasi. Vel.</p>
+        </div>
+    </div>
+</body>
+</html>
